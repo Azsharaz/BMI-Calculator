@@ -26,11 +26,11 @@ public class BMICalculator {
 
 
             if (bmi<18.5 && bmi>1){
-                       System.out.println("You are weak");
+                       System.out.println("You are underweight");
                    }else if (bmi>18.5 && bmi<20){
                        System.out.println("Your weight is ideal");
                    }else if (bmi>25 && bmi<30){
-                       System.out.println("You are fat");
+                       System.out.println("You are overweight");
                    }else if (bmi>=30){
                        System.out.println("You are obese");
                    }else {
